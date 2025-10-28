@@ -37,7 +37,7 @@ const faqs = ref([
   {
     question: "What is EmergencyyCall?",
     answer: "EmergencyyCall is a community platform that focuses on mental health as a primary foundation for self-development. We provide tools like mood tracking, journaling, and access to counseling to help you on your wellness journey.",
-    isOpen: true // Buat yang pertama terbuka secara default
+    isOpen: true
   },
   {
     question: "Is this a replacement for therapy?",
@@ -45,8 +45,13 @@ const faqs = ref([
     isOpen: false
   },
   {
-    question: "How does the 'Mindful Moment' feature work?",
-    answer: "The 'Mindful Moment' is a simple, animated breathing exercise designed to help you ground yourself. It guides you through a cycle of breathing in, holding, and exhaling slowly to help reduce stress and bring focus to the present moment.",
+    question: "How do I schedule a counseling session?",
+    answer: "You can schedule a session by clicking the 'Counseling' link in the main navigation (or the 'Manage Sessions' card). This will open your counseling dashboard where you can select a professional, pick an available date and time, and add a note for your session.",
+    isOpen: false
+  },
+  {
+    question: "Is my Gratitude Log private?",
+    answer: "<strong>Yes.</strong> Your Gratitude Log and personal mood data are private to your account. We prioritize your privacy and provide a safe space for your personal reflections.",
     isOpen: false
   }
 ])
