@@ -12,6 +12,43 @@ Proyek ini bertujuan menampilkan *Wellness Tracker Dashboard*, format **satu hal
 
 ---
 
+## **Konsep Desain**
+
+Desain menggunakan warna **lembut dan netral** (beige muda, putih krem, dan aksen merah halus) untuk menciptakan suasana tenang dan aman. Tujuannya agar pengguna merasa nyaman seperti berada di ruang pribadi yang aman secara emosional (*digital safe space*).
+
+## **Rencana Integrasi Backend**
+
+1. **Autentikasi Pengguna (Login & Register)**
+   * Menambahkan sistem login agar setiap pengguna memiliki akun pribadi.
+   * Backend akan menangani registrasi, enkripsi password, dan token autentikasi (misalnya menggunakan JWT).
+   * Hal ini memungkinkan pengguna untuk menyimpan data pribadi seperti mood atau jadwal konseling secara terpisah.
+     
+2. **Penyimpanan Data Konseling**
+   * Data jadwal konseling (tanggal, nama konselor, jenis sesi) akan disimpan dalam database (misalnya MongoDB atau MySQL).
+   * Pengguna dapat menambah, mengubah, atau menghapus jadwal dan perubahan tersebut akan otomatis tersimpan.
+   * Konselor juga dapat memiliki tampilan khusus untuk melihat daftar sesi yang terjadwal.
+
+3. **Mood Tracker Dinamis**
+   * Backend akan mencatat setiap entri mood pengguna harian ke dalam database.
+   * Data ini kemudian digunakan untuk menghasilkan *weekly mood report* secara otomatis berdasarkan catatan pengguna.
+   * Dapat ditambahkan fitur analisis sederhana seperti “tren suasana hati selama seminggu”.
+
+4. **Gratitude Log Terhubung ke Database**
+   * Setiap catatan syukur yang ditulis pengguna akan dikirim dan disimpan di backend.
+   * Pengguna dapat meninjau kembali catatan syukur mereka kapan saja, bahkan setelah logout.
+
+5. **Dashboard Data Analytics (Tahap Lanjut)**
+   * Backend akan mengirimkan data statistik seperti jumlah sesi konseling per bulan, rata-rata mood, dan aktivitas pengguna.
+   * Data ini ditampilkan di dashboard sebagai grafik atau ringkasan visual untuk membantu refleksi diri.
+
+### Teknologi yang Direncanakan:
+* **Backend Framework:** Node.js (Express.js)
+* **Database:** MongoDB atau MySQL
+* **Autentikasi:** JSON Web Token (JWT)
+* **Komunikasi Frontend–Backend:** RESTful API atau GraphQL
+
+---
+
 ## Fitur Utama
 
 ### **Dashboard Utama**
@@ -70,13 +107,6 @@ src/
 ├── main.js               # Titik masuk aplikasi Vue
 └── index.html            # File HTML utama
 ```
-
----
-
-## **Konsep Desain**
-
-Desain menggunakan warna **lembut dan netral** (beige muda, putih krem, dan aksen merah halus) untuk menciptakan suasana tenang dan aman. Tujuannya agar pengguna merasa nyaman seperti berada di ruang pribadi yang aman secara emosional (*digital safe space*).
-
 ---
 
 ## **Cara Menjalankan Proyek**
