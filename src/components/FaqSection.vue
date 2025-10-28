@@ -50,8 +50,8 @@ const faqs = ref([
     isOpen: false
   },
   {
-    question: "Is my Gratitude Log private?",
-    answer: "<strong>Yes.</strong> Your Gratitude Log and personal mood data are private to your account. We prioritize your privacy and provide a safe space for your personal reflections.",
+    question: "What is the Gratitude Log for?",
+    answer: "The Gratitude Log helps users reflect on positive aspects of their day. You can write daily entries prompted by “What are you thankful for today?” to encourage mindfulness and positivity.",
     isOpen: false
   }
 ])
@@ -167,3 +167,4 @@ const toggleFaq = (index) => {
 }
 
 </style>
+
