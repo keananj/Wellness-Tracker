@@ -1,111 +1,110 @@
-Perfect 👍 Here’s a **professional, clean, and beginner-friendly README.md** file description based on everything you’ve built for your **Wellness Tracker website** so far — including features like the dashboard, counseling, mood tracker, gratitude log, and calming music toggle.
-
----
-
 # Emergency Call – Wellness Tracker
 
-**Emergency Call** is a simple, calming wellness tracker web application built using **Vue.js**. It helps users check in with themselves, track their mood and gratitude, schedule counseling sessions, and find daily motivation—all in one gentle, supportive dashboard.
-
-## Overview
-
-The goal of this website is to promote emotional well-being and mindfulness. The interface is clean, minimal, and designed to create a sense of calm, allowing users to focus on self-reflection rather than complexity.
-
-Upon visiting the page, users are greeted with a time-based welcome message (e.g., “Good morning, take a deep breath 🌤️”) followed by a dashboard of personal wellness tools.
+**Emergency Call** adalah aplikasi web sederhana dan menenangkan yang dibuat menggunakan **Vue.js**. Tujuan utama dari website ini adalah membantu pengguna melakukan *self check-in*, memantau suasana hati (*mood*), menulis rasa syukur, menjadwalkan sesi konseling, dan mendapatkan motivasi harian—semuanya dalam satu *dashboard* yang lembut dan mendukung kesehatan mental.
 
 ---
 
-## Features
+## Tujuan Proyek
 
-### *Dashboard Overview**
+Website ini dirancang untuk mempromosikan **kesehatan mental dan kesadaran diri (mindfulness)** melalui antarmuka yang sederhana dan menenangkan. Fokus utamanya bukan pada banyaknya fitur, melainkan pada **kejelasan, ketenangan, dan fungsionalitas inti**. 
 
-* A clean and welcoming dashboard showing personalized greetings based on the user’s time of day.
-* Motivational quotes that change dynamically to encourage positivity and reflection.
-* A visually organized grid layout containing all main features in one scrollable view.
-
-### 💬 **Counseling Section**
-
-* Displays upcoming and past counseling sessions with counselor names and session types.
-* Allows users to **add**, **edit**, or **remove** counseling schedules.
-* Includes date and time selection for future counseling appointments.
-* Shows summaries like *total sessions*, *average duration*, and *sessions this month*.
-
-### **Mood Tracker**
-
-* A static **Weekly Mood Report** displaying the user’s emotional pattern over the week.
-* Moods represented with emojis, labels, or bar charts for easy understanding.
-* Ends with a motivational reflection line to promote self-awareness.
-
-### **Gratitude Log**
-
-* A text field for users to write daily gratitude entries.
-* Encourages mindfulness by prompting users with *“What are you thankful for today?”*
-* Helps users reflect on positive moments regularly.
-
-### **Music Toggle**
-
-* A floating button that allows users to play or pause calm background music.
-* Adds a comforting atmosphere to enhance focus and relaxation.
-
-### **Daily Motivation**
-
-* Displays a randomly selected motivational quote when the app loads.
-* Refreshes automatically each day for a sense of inspiration and renewal.
+Proyek ini bertujuan menampilkan *Wellness Tracker Dashboard*, format **satu halaman (single-page)** dianggap paling efektif agar pengguna dapat melihat seluruh fitur utama dengan jelas tanpa distraksi.Dengan satu halaman yang rapi dan responsif, proyek ini menggambarkan keseimbangan antara desain, fungsionalitas, dan tujuan emosional dari sebuah *wellness tracker*.
 
 ---
 
-## **Tech Stack**
+## Fitur Utama
+
+### **Dashboard Utama**
+
+* Tampilan bersih dan hangat dengan sapaan berdasarkan waktu (pagi, siang, malam).
+* Kutipan motivasi harian yang berubah secara otomatis untuk memberikan semangat positif.
+* Tata letak berbasis grid yang rapi, menyatukan semua fitur utama dalam satu halaman.
+
+### **Konseling**
+
+* Menampilkan daftar sesi konseling yang akan datang dan yang telah selesai.
+* Fitur untuk **menambah**, **mengubah**, dan **menghapus** jadwal konseling.
+* Pemilihan tanggal dan waktu untuk janji konseling berikutnya.
+* Ringkasan kecil seperti total sesi dan sesi dalam bulan berjalan.
+
+### **Pelacak Suasana Hati (Mood Tracker)**
+
+* Laporan suasana hati mingguan yang menampilkan pola emosi pengguna.
+* Representasi menggunakan emoji, label, atau grafik batang sederhana.
+* Disertai pesan refleksi singkat untuk meningkatkan kesadaran diri.
+
+### **Catatan Syukur (Gratitude Log)**
+
+* Kolom teks sederhana bagi pengguna untuk menulis hal-hal yang disyukuri setiap hari.
+* Mendorong pengguna berpikir positif dengan pertanyaan *“Apa yang kamu syukuri hari ini?”*
+
+### **Musik Relaksasi**
+
+* Tombol kecil untuk memutar atau menghentikan musik latar yang menenangkan.
+* Menambah suasana damai dan fokus selama pengguna menggunakan aplikasi.
+
+### **Motivasi Harian**
+
+* Menampilkan kutipan motivasi acak setiap kali halaman dimuat.
+* Memberikan rasa inspirasi dan pembaruan setiap hari.
+
+---
+
+## **Teknologi yang Digunakan**
 
 * **Frontend:** Vue 3 (Composition API + `<script setup>`)
-* **Styling:** CSS3 with responsive grid layout and theme variables
+* **Styling:** CSS3 dengan layout grid dan warna tema yang lembut
 * **Build Tool:** Vite
-* **Icons & Fonts:** Custom emojis and Google Fonts
+* **Font & Icon:** Google Fonts dan emoji kustom
 
 ---
 
-## **Folder Structure**
+## **Struktur Folder**
 
 ```
 src/
 │
-├── assets/               # App images and icons (e.g., favicon)
-├── components/           # Reusable components (Header, Counseling, MoodTracker, etc.)
-├── App.vue               # Main app layout and structure
-├── main.js               # Vue app entry point
-└── index.html            # Root HTML file
+├── assets/               # Gambar dan ikon aplikasi
+├── components/           # Komponen Vue (Header, Counseling, MoodTracker, dll.)
+├── App.vue               # Struktur utama aplikasi
+├── main.js               # Titik masuk aplikasi Vue
+└── index.html            # File HTML utama
 ```
 
 ---
 
-## **Design Concept**
+## **Konsep Desain**
 
-The design is centered around **warm neutral tones** (light beige, cream white, and soft red highlights). The purpose is to make users feel calm, safe, and emotionally supported — similar to a digital safe space.
+Desain menggunakan warna **lembut dan netral** (beige muda, putih krem, dan aksen merah halus) untuk menciptakan suasana tenang dan aman. Tujuannya agar pengguna merasa nyaman seperti berada di ruang pribadi yang aman secara emosional (*digital safe space*).
 
 ---
 
-## **How to Run**
+## **Cara Menjalankan Proyek**
 
-1. Clone the repository
+1. Clone repository:
 
    ```bash
    git clone https://github.com/yourusername/wellness-tracker.git
    ```
-2. Navigate to the folder
+2. Masuk ke folder proyek:
 
    ```bash
    cd wellness-tracker
    ```
-3. Install dependencies
+3. Instal dependensi:
 
    ```bash
    npm install
    ```
-4. Run the development server
+4. Jalankan server pengembangan:
 
    ```bash
    npm run dev
    ```
-5. Open your browser at
+5. Buka di browser:
 
    ```
    http://localhost:5173
    ```
+
+---
