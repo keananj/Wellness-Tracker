@@ -2,11 +2,11 @@ Perfect 👍 Here’s a **professional, clean, and beginner-friendly README.md**
 
 ---
 
-# 🌿 Emergency Call – Wellness Tracker
+# Emergency Call – Wellness Tracker
 
 **Emergency Call** is a simple, calming wellness tracker web application built using **Vue.js**. It helps users check in with themselves, track their mood and gratitude, schedule counseling sessions, and find daily motivation—all in one gentle, supportive dashboard.
 
-## 🧘 Overview
+## Overview
 
 The goal of this website is to promote emotional well-being and mindfulness. The interface is clean, minimal, and designed to create a sense of calm, allowing users to focus on self-reflection rather than complexity.
 
@@ -14,9 +14,9 @@ Upon visiting the page, users are greeted with a time-based welcome message (e.g
 
 ---
 
-## 🌸 Features
+## Features
 
-### 🏠 **Dashboard Overview**
+### *Dashboard Overview**
 
 * A clean and welcoming dashboard showing personalized greetings based on the user’s time of day.
 * Motivational quotes that change dynamically to encourage positivity and reflection.
@@ -29,31 +29,31 @@ Upon visiting the page, users are greeted with a time-based welcome message (e.g
 * Includes date and time selection for future counseling appointments.
 * Shows summaries like *total sessions*, *average duration*, and *sessions this month*.
 
-### 😊 **Mood Tracker**
+### **Mood Tracker**
 
 * A static **Weekly Mood Report** displaying the user’s emotional pattern over the week.
 * Moods represented with emojis, labels, or bar charts for easy understanding.
 * Ends with a motivational reflection line to promote self-awareness.
 
-### 🙏 **Gratitude Log**
+### **Gratitude Log**
 
 * A text field for users to write daily gratitude entries.
 * Encourages mindfulness by prompting users with *“What are you thankful for today?”*
 * Helps users reflect on positive moments regularly.
 
-### 🎧 **Music Toggle**
+### **Music Toggle**
 
 * A floating button that allows users to play or pause calm background music.
 * Adds a comforting atmosphere to enhance focus and relaxation.
 
-### 💡 **Daily Motivation**
+### **Daily Motivation**
 
 * Displays a randomly selected motivational quote when the app loads.
 * Refreshes automatically each day for a sense of inspiration and renewal.
 
 ---
 
-## ⚙️ **Tech Stack**
+## **Tech Stack**
 
 * **Frontend:** Vue 3 (Composition API + `<script setup>`)
 * **Styling:** CSS3 with responsive grid layout and theme variables
@@ -62,7 +62,7 @@ Upon visiting the page, users are greeted with a time-based welcome message (e.g
 
 ---
 
-## 🧩 **Folder Structure**
+## **Folder Structure**
 
 ```
 src/
@@ -76,13 +76,13 @@ src/
 
 ---
 
-## 🎨 **Design Concept**
+## **Design Concept**
 
 The design is centered around **warm neutral tones** (light beige, cream white, and soft red highlights). The purpose is to make users feel calm, safe, and emotionally supported — similar to a digital safe space.
 
 ---
 
-## 🚀 **How to Run**
+## **How to Run**
 
 1. Clone the repository
 
