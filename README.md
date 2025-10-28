@@ -1,6 +1,6 @@
 # Emergency Call – Wellness Tracker
 
-**Emergency Call** adalah aplikasi web sederhana dan menenangkan yang dibuat menggunakan **Vue.js**. Tujuan utama dari website ini adalah membantu pengguna melakukan *self check-in*, memantau suasana hati (*mood*), menulis rasa syukur, menjadwalkan sesi konseling, dan mendapatkan motivasi harian—semuanya dalam satu *dashboard* yang lembut dan mendukung kesehatan mental.
+**Wellness Tracker** adalah sebuah dashboard web sederhana dan menenangkan yang dibuat menggunakan framework **Vue.js**. Tujuan utama dari website ini adalah membantu pengguna melakukan *self check-in*, memantau suasana hati (*mood*), menulis rasa syukur, menjadwalkan sesi konseling, dan mendapatkan motivasi harian—semuanya dalam satu *dashboard* yang lembut dan mendukung kesehatan mental.
 
 ---
 
